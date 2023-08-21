@@ -1,2 +1,6 @@
 # html-lineage
- lineage private server website 
+ Lineage Private Server interlude
+
+ Web site simples modificado
+
+ Não testei anti-injection sql

@@ -1,0 +1,418 @@
+/* Estilizando formulario de cadastro */
+form.cadastro{
+	display: block;
+	position: relative;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+form.cadastro input{
+	width: 296px;
+	height: 20px;
+	margin-bottom: 2.1px;
+	margin-top: 2.1px;
+	padding: 6px;
+	outline: none;
+	border: 0px;
+	border-bottom: 1px solid #222;
+	background-color: #000000a8;
+	color:#ffffff;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+}
+
+form.cadastro input:focus{
+	background-color: #444;
+	color:#d1d1d1;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+	background: rgba(0,102,204,.02);
+	box-shadow: inset 0 0 35px 5px rgba(0,0,0,.3), 0 0 4px 1px rgba(0,0,0,.3);
+}
+
+
+form.cadastro input[type=submit]{
+	width: 200px;
+    margin-inline: 50px;
+	height: 30px;
+	background-color: #2020207d;
+	box-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	transition:all 400ms; -webkit-transition:all 400ms; -moz-transition:all 400ms; -ms-transition:all 400ms; -o-transition:all 400ms;
+}
+/* Estilizando formulario de cadastro */
+
+/* Estilizando formulario de Login */
+form.login{
+	display: block;
+	position: relative;
+	padding: 6px;
+	margin-top: 0px;
+}
+
+form.login input{
+	width: 300px;
+	height: 20px;
+	margin-bottom: 6px;
+	padding: 4px;
+	outline: none;
+	border: 0px;
+	background-color: #00000070;
+	color:#ffffff;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+}
+
+form.login input:focus{
+	background-color: #636363;
+	color:#d1d1d1;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+	background: rgba(0,102,204,.02);
+	box-shadow: inset 0 0 35px 5px rgba(0,0,0,.3), 0 0 4px 1px rgba(0,0,0,.3);
+}
+
+
+form.login input[type=submit]{
+	width: 140px;
+	margin-inline: 75px;
+	height: 25px;
+	background-color: #2020207d;
+	box-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	transition:all 400ms; -webkit-transition:all 400ms; -moz-transition:all 400ms; -ms-transition:all 400ms; -o-transition:all 400ms;
+}
+
+/* Estilizando formulario de login */
+
+/* Estilizando formulario de Contato */
+form.contato{
+	position: relative;
+	margin-top: 15px;
+	background-color: #333;
+	padding: 6px;
+}
+
+form.contato input{
+	width: 298px;
+	height: 35px;
+	padding: 5px;
+	margin-bottom: 2.1px;
+	margin-top: 2.1px;
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid #222;
+	background-color: #444;
+	color:#bd080b;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+}
+
+form.contato select{
+	width: 308px;
+	height: 48px;
+	margin-bottom: 2.1px;
+	margin-top: 2.1px;
+	outline: none;
+	color: #aaa;
+	border: 0;
+	border-bottom: 1px solid #222;
+	background-color: #444;
+	color:#bd080b;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+}
+
+form.contato select option{
+	color: #fff;
+ 
+}
+
+form.contato textarea{
+	width: 611px;
+	height: 90px;
+	margin-bottom: 2.1px;
+	margin-top: 2.1px;
+	padding: 5px;
+	outline: none;
+	font-family: sans-serif;
+	border: 0;
+	border-bottom: 1px solid #222;
+	background-color: #444;
+	color:#bd080b;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+}
+
+form.contato input[type=submit]{
+	width: 620px;
+	height: 45px;
+	background-color: #bd080b;
+	box-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+}
+
+/* Fim Estilização formulario de login */
+
+/* Estilização formulario de trocar senha */
+form.change-pass{
+	position: relative;
+	margin-top: 15px;
+	background-color: #333;
+	padding: 6px;	
+}
+form.change-pass input{
+	width: 298px;
+	height: 35px;
+	padding: 5px;
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid #222;
+	background-color: #444;
+	color:#bd080b;
+	margin-bottom: 2.1px;
+	margin-top: 2.1px;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+}
+
+form.change-pass input:focus{
+	background-color: #444;
+	color:#bd080b;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+	background: rgba(0,102,204,.02);
+	box-shadow: inset 0 0 35px 5px rgba(0,0,0,.3), 0 0 4px 1px rgba(0,0,0,.3);
+}
+
+form.change-pass input[type=submit]{
+	width: 620px;
+	height: 45px;
+	margin-top: 4px;
+	background-color: #bd080b;
+	box-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+}
+
+/* Fim Estilização formulario de trocar senha */
+
+
+/* Estilização formulario de Confirmar Doação */
+form.donate{
+	position: relative;
+	margin-top: 15px;
+	background-color: #333;
+	padding: 6px;	
+}
+form.donate input{
+	width: 298px;
+	height: 35px;
+	padding: 5px;
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid #222;
+	background-color: #444;
+	color:#bd080b;
+	margin-bottom: 2.1px;
+	margin-top: 2.1px;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+}
+
+form.donate select{
+	width: 308px;
+	height: 48px;
+	margin-bottom: 2.1px;
+	margin-top: 2.1px;
+	outline: none;
+	color: #aaa;
+	border: 0;
+	border-bottom: 1px solid #222;
+	background-color: #444;
+	color:#bd080b;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+}
+
+form.donate select option{
+	color: #fff;
+ 
+}
+
+
+form.donate input:focus{
+	background-color: #444;
+	color:#bd080b;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+	background: rgba(0,102,204,.02);
+	box-shadow: inset 0 0 35px 5px rgba(0,0,0,.3), 0 0 4px 1px rgba(0,0,0,.3);
+}
+
+form.donate input[type=submit]{
+	width: 309px;
+	height: 45px;
+	margin-top: 4px;
+	background-color: #bd080b;
+	box-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+}
+form.donate input[type=file]{
+	width: 298px;
+	height: 35px;
+	background-color: #444;
+	border:0;
+	border-bottom: 1px solid #222;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	color: #777;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Select Image';
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 4px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+  color: #000;
+  margin-top:5px;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+/* Fim Estilização formulario de Confirmar Doação */
+
+
+/* Estilizando formulario de Reportagem de player */
+form.report{
+	display: block;
+	position: relative;
+	background-color: #333;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+form.report input{
+	width: 298px;
+	height: 35px;
+	margin-bottom: 2.1px;
+	margin-top: 2.1px;
+	padding: 5px;
+	outline: none;
+	border: 0px;
+	border-bottom: 1px solid #222;
+	background-color: #444;
+	color:#bd080b;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+}
+
+form.report textarea{
+	margin-bottom: 2.1px;
+	margin-top: 2.1px;
+	width: 612px;
+	height: 150px;
+	padding: 4px;
+	outline: none;
+	border: 0px;
+	font-family: sans-serif;
+	border-bottom: 1px solid #222;
+	background-color: #444;
+	color:#bd080b;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+}
+
+form.report textarea:focus{
+	background-color: #444;
+	color:#bd080b;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+	background: rgba(0,102,204,.02);
+	box-shadow: inset 0 0 35px 5px rgba(0,0,0,.3), 0 0 4px 1px rgba(0,0,0,.3);
+}
+
+form.report input:focus{
+	background-color: #444;
+	color:#bd080b;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+	background: rgba(0,102,204,.02);
+	box-shadow: inset 0 0 35px 5px rgba(0,0,0,.3), 0 0 4px 1px rgba(0,0,0,.3);
+}
+
+
+form.report input[type=submit]{
+	width: 620px;
+	height: 42px;
+	background-color: #db080b;
+	box-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	transition:all 400ms; -webkit-transition:all 400ms; -moz-transition:all 400ms; -ms-transition:all 400ms; -o-transition:all 400ms;
+}
+/* Estilizando formulario de Reportagem de player */
+
+
+
+/* Estilizando formulario de cadastro */
+form.recover{
+	display: block;
+	position: relative;
+	background-color: #333;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+form.recover input{
+	width: 298px;
+	height: 35px;
+	margin-bottom: 2.1px;
+	margin-top: 2.1px;
+	padding: 5px;
+	outline: none;
+	border: 0px;
+	border-bottom: 1px solid #222;
+	background-color: #444;
+	color:#bd080b;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+}
+
+form.recover input:focus{
+	background-color: #444;
+	color:#bd080b;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+	background: rgba(0,102,204,.02);
+	box-shadow: inset 0 0 35px 5px rgba(0,0,0,.3), 0 0 4px 1px rgba(0,0,0,.3);
+}
+
+
+form.recover input[type=submit]{
+	width: 620px;
+	height: 42px;
+	background-color: #db080b;
+	box-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	transition:all 400ms; -webkit-transition:all 400ms; -moz-transition:all 400ms; -ms-transition:all 400ms; -o-transition:all 400ms;
+}
+/* Estilizando formulario de cadastro */

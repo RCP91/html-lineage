@@ -1,0 +1,58 @@
+div#login_menu{
+	background-color: #333;
+	padding: 5px;
+	margin-top: 15px;
+}
+
+span.username{
+	color:#999;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);	
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+span.admin{
+	background: rgba(0,102,204,.02);
+	box-shadow: inset 0 0 35px 5px rgba(0,0,0,.3), 0 0 4px 1px rgba(0,0,0,.3);
+	height: 20px;
+	line-height: 20px;
+	padding: 5px;
+	position: relative;
+	display: block;
+	font-size: 15px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #222;
+	transition:all 400ms; -webkit-transition:all 400ms; -moz-transition:all 400ms; -ms-transition:all 400ms; -o-transition:all 400ms;
+	transition:all 600ms; -webkit-transition:all 600ms; -moz-transition:all 600ms; -ms-transition:all 600ms; -o-transition:all 600ms;
+	text-decoration: none;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);	
+}
+
+div#login_menu a{
+	background-color: #444;
+	height: 30px;
+	line-height: 30px;
+	padding: 5px;
+	position: relative;
+	display: block;
+	font-size: 12px;
+	border-bottom: 1px solid #222;
+	transition:all 400ms; -webkit-transition:all 400ms; -moz-transition:all 400ms; -ms-transition:all 400ms; -o-transition:all 400ms;
+	transition:all 600ms; -webkit-transition:all 600ms; -moz-transition:all 600ms; -ms-transition:all 600ms; -o-transition:all 600ms;
+	text-decoration: none;
+}
+
+div#login_menu a:hover{
+	background: rgba(0,102,204,.02);
+	box-shadow: inset 0 0 35px 5px rgba(0,0,0,.3), 0 0 4px 1px rgba(0,0,0,.3);
+	color:#bd080b;
+	text-shadow:0 0 1px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.81), 0 1px 1px rgba(0,0,0,.5), 1px 1px 0 rgba(0,0,0,.7), 0 0 12px rgba(0,0,0,.4);	
+}
+
+div#login_menu ul{
+	list-style: none;
+}
+
+div#login_menu ul li{
+
+}
